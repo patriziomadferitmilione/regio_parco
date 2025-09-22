@@ -9,6 +9,10 @@ body {
   position: relative;
 }
 
+section {
+  scroll-margin-top: 120px; /* altezza navbar */
+}
+
 h1,
 h2,
 h3,
@@ -521,6 +525,75 @@ footer {
   color: #ffffff;
 }
 /* end social icon */
+
+/* Menu section */
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed #ccc;
+  padding: 8px 0;
+  font-size: 16px;
+}
+
+.menu-list .item {
+  font-weight: 600;
+  color: #202020;
+}
+
+.menu-list .price {
+  color: #0277BD;
+  font-weight: bold;
+}
+
+/* Modern menu cards */
+.menu-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.pizza-name {
+  font-family: "Chewy", cursive;
+  font-size: 22px;
+  color: #0277BD;
+  margin: 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #f57c00;
+  font-size: 18px;
+}
+
+.ingredients {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+  line-height: 1.4em;
+}
 
 @media only screen and (max-width: 360px) {
   .navbar-default .navbar-brand {
