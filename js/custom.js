@@ -42,6 +42,17 @@ $(function(){
   loadGoogleMap();
 });
 
+$(window).on("load", function () {
+    $(".reviews-slider").flexslider({
+        animation: "slide",
+        controlNav: true,
+        directionNav: false,
+        slideshowSpeed: 5000,
+        animationSpeed: 600,
+        smoothHeight: true
+    });
+});
+
 // Hide mobile menu after clicking on a link
     $('.navbar-collapse a').click(function(){
         $(".navbar-collapse").collapse('hide');
