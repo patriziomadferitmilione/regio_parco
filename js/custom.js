@@ -47,7 +47,7 @@ $(window).on("load", function () {
         animation: "slide",
         controlNav: true,
         directionNav: false,
-        slideshowSpeed: 5000,
+        slideshowSpeed: 2000,
         animationSpeed: 600,
         smoothHeight: true
     });
