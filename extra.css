@@ -1,0 +1,100 @@
+.flex-viewport {
+  max-height: 2000px;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.loading .flex-viewport {
+  max-height: 300px;
+}
+
+
+/* start gallery */
+
+.templatemo-light-gray-bg {
+  background: #f9f9f9;
+}
+.gallery-wrapper {
+  background: #ffffff;
+  margin-top: 20px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.gallery-wrapper:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.gallery-des {
+  padding: 0 20px 14px 20px;
+}
+.gallery-img {
+  margin: 0 auto;
+}
+/* end gallery */
+
+
+.form-control {
+  border: 2px solid #f2f2f2;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-top: 12px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.form-control:focus,
+.form-control:active {
+  border-color: #0277BD;
+}
+input {
+  height: 50px;
+}
+input[type="submit"] {
+  font-weight: bold;
+  margin-bottom: 80px;
+  margin-top: 20px;
+}
+input[type="submit"]:hover {
+  background: #0277BD;
+  color: #ffffff;
+}
+.form-control::-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #666;
+}
+.form-control::-webkit-input-placeholder {
+  color: #666;
+}
+
+
+
+/* start social icon */
+.social-icon {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+.social-icon li {
+  display: inline-block;
+  list-style: none;
+}
+.social-icon li a {
+  color: #666;
+  font-size: 13px;
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.social-icon li a:hover {
+  background: #0277BD;
+  color: #ffffff;
+}
+/* end social icon */
