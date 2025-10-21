@@ -155,8 +155,12 @@ img {
 .flexslider ul li img {
   max-width: 100%;
   height: auto;
+
 }
 
+.flexslider .slides li img {
+  opacity: .45;
+}
 .flexslider {
   margin: 0;
   position: relative;
@@ -452,8 +456,14 @@ footer {
   color: #202020;
 }
 
-.menu-list .price {
+.price {
   color: #0277BD;
+  font-weight: bold;
+}
+
+.price-maxi {
+  color: #0e5f90;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -505,7 +515,7 @@ footer {
 
 .ingredients {
   font-size: 14px;
-  color: #555;
+  color: #666;
   margin: 0;
   line-height: 1.4em;
 }
@@ -526,10 +536,6 @@ footer {
 .price {
   font-weight: bold;
   color: #0277BD;
-}
-.ingredients {
-  font-size: 14px;
-  color: #666;
 }
 
 /* Sezioni */
